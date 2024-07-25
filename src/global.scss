@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: url("../public/images/pattern-bg.svg") no-repeat right;
+  background: url("/images/pattern-bg.svg") no-repeat right;
 
   .container {
     max-width: 1150px;
@@ -97,7 +97,7 @@ body {
 
 @media (max-width: 900px) {
   #testimonials {
-    background: url("images/pattern-bg.svg") no-repeat right 250px;
+    background: url("/images/pattern-bg.svg") no-repeat right 250px;
     background-size: 300px;
     .box {
       flex-direction: column-reverse;
