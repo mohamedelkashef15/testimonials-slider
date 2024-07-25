@@ -32,7 +32,7 @@ function App() {
 
   return (
     <main>
-      <section id="testimonials">
+      <div id="testimonials">
         <img src="images/pattern-curve.svg" className="img-curve" alt="curve" />
         <div className="container">
           <div className="box">
@@ -58,7 +58,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   );
 }
