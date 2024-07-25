@@ -1,10 +1,5 @@
 import { useState } from "react";
-/*
-  - onClick
-      - change data 
-      - change image
 
-*/
 const data = [
   {
     id: 1,
@@ -18,7 +13,7 @@ const data = [
     id: 2,
     name: "John Tarkpor",
     img: "images/image-john.jpg",
-    review: `  “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”`,
+    review: `“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”`,
     job: "Junior Front-end Developer",
   },
 ];
