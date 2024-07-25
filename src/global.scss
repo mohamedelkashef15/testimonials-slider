@@ -19,8 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-
-  background: url("../public/images/pattern-bg.svg") no-repeat right;
+  background: url("images/pattern-bg.svg") no-repeat right;
 
   .container {
     max-width: 1150px;
@@ -43,7 +42,7 @@ body {
       margin-right: -100px;
       z-index: 100;
       position: relative;
-      p {
+      .description {
         font-size: 32px;
         line-height: 1.3;
         font-weight: 200;
@@ -90,6 +89,43 @@ body {
           border: none;
           background-color: transparent;
           cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #testimonials {
+    background: url("images/pattern-bg.svg") no-repeat right 250px;
+    background-size: 300px;
+    .box {
+      flex-direction: column-reverse;
+      .testimonial-review {
+        margin-right: 0;
+        .description {
+          font-size: 18px;
+          padding: 0 2rem;
+          text-align: center;
+        }
+        .person-info {
+          text-align: center;
+          span {
+            display: block;
+            margin-top: 5px;
+            margin-left: 0;
+          }
+        }
+      }
+      .person {
+        margin-bottom: 4rem;
+        .img-hero {
+          max-width: 300px;
+        }
+        .buttons {
+          position: absolute;
+          bottom: -14px;
+          left: 100px;
         }
       }
     }

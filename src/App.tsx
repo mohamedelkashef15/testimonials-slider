@@ -43,11 +43,7 @@ function App() {
           <div className="box">
             <div className="testimonial-review">
               <img src="images/pattern-quotes.svg" className="img-quotes" alt="quotes" />
-              <p className="description">
-                {/* " I've been interested in coding for a while but never taken the jump, until now. I couldn't recommend
-                this course enough. I'm now in the job of my dreams and so excited about the future." */}
-                {data[step].review}
-              </p>
+              <p className="description">{data[step].review}</p>
               <div className="person-info">
                 <p>
                   {data[step].name} <span>{data[step].job}</span>
